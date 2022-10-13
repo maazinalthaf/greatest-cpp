@@ -21,8 +21,6 @@ printf("x and y are equal and greater than z\n");
 printf("y and z are equal and greater than x\n");
   else if(x==z&&x!=y&&x>y)
 printf("x and z are equal and greater than y\n");
-  else
-printf("Invalid\n");
 getch();
 return 0;
 }
