@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 
 main()
 {
@@ -24,3 +23,4 @@ printf("x and z are equal and greater than y\n");
 getch();
 return 0;
 }
+
