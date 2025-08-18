@@ -1,9 +1,8 @@
 #include<stdio.h>
 
-main()
+int main()
 {
 int x,y,z;
-clrscr();
 printf("Enter the values of x,y,z\n");
 scanf("%d%d%d",&x,&y,&z);
 if(x>y&&x>z)
@@ -20,7 +19,7 @@ printf("x and y are equal and greater than z\n");
 printf("y and z are equal and greater than x\n");
   else if(x==z&&x!=y&&x>y)
 printf("x and z are equal and greater than y\n");
-getch();
 return 0;
 }
+
 
